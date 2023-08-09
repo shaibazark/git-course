@@ -8,8 +8,4 @@ change1
 
 change2
 
-<<<<<<< HEAD
 change3
-=======
-change4
->>>>>>> feature3
