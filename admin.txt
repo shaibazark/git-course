@@ -15,4 +15,3 @@ change3 : DB URL "https://1005"
 closing the connection
 
 Yes
-###
