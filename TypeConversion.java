@@ -5,7 +5,7 @@ public static void main(String[] args){
 
     System.out.println("Hello World......");
     
-    byte num2 = 127;
+    //byte num2 = 127;
     int num = 256;
     byte k = (byte) num;
     //float a = 5.6f;
