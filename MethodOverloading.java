@@ -18,7 +18,7 @@ public class MethodOverloading {
     public static void main(String[] args) {
         Calc c = new Calc();
         
-        long res1 = c.add(4,5);
+        //long res1 = c.add(4,5);
         double res = c.add(4.5,5.5);
         System.out.println(res);
     }

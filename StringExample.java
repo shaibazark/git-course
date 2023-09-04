@@ -2,7 +2,7 @@ public class StringExample {
     public static void main(String[] args) {
     
         String var1 = new String("shaibaz");
-        String var2 = "AAA";
+        //String var2 = "AAA";
         System.out.println("Hello " + var1);
         System.out.println(var1.charAt(1));
         System.out.println(var1.concat(" Arkate"));
