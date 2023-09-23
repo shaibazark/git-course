@@ -23,7 +23,7 @@ public class StaticBlock{
     public static void main(String[] args) throws ClassNotFoundException {
         System.out.println("main");
 
-        Class.forName("Mobile");
+        Class.forName("Mobile"); // this will execute only static block
         //Mobile m = new Mobile();
         //System.out.println(m.year);
     }
