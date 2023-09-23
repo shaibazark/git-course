@@ -25,10 +25,10 @@ public class InstanceLocalVar {
         
         example e = new example();
         e.add();
-        int a;
+       /* int a;
         float f;
         char c;
-        boolean b;
+        boolean b;*/
         //e.add(a,f,c,b);  // we cannot pass withouth initializing a local variable
     }
 }
