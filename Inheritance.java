@@ -10,6 +10,10 @@ class Calc{
 
 class AdvCalc extends Calc{
     int num=10;
+    public int add(int a,int b){
+        System.out.println("inside AdvCalc");
+        return a+b;
+    }
     public int multi(int a,int b){
         return a*b;
     }
@@ -28,7 +32,7 @@ class SciCalc extends AdvCalc{
 
 public class Inheritance {
     public static void main(String[] args){
-        //AdvCalc c = new AdvCalc();
+        //Calc c = new AdvCalc();
         SciCalc c = new SciCalc();
         int res = c.add(5,9);
         int res1 = c.sub(15,9);
