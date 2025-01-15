@@ -10,7 +10,7 @@ public class MultiArray {
             for(int j=0;j<4;j++){
                num[i][j]=(int)(Math.random() * 10);
             }
-            System.out.println();
+            // System.out.println();
         }
 
         for (int i=0;i<3;i++){
